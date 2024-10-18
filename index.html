@@ -1,163 +1,169 @@
+<!DOCTYPE html>
 <html>
-  <style>
-    p {
-      font-family: Arial;
-      margin-top: 0px;
-      margin-bottom: 0px;
-    }
-    .video-title {
-      font-weight: bold;
-      font-size: 24px;
-      text-align: center;
-      margin-bottom: 5px;
-    }
-    .video-stats {
-      font-size: 16;
-      color: grey;
-      margin-bottom: 20px;
-    }
-    .video-author {
-      font-size: 10;
-      color: grey;
-      width: 200; 
-      line-height: 20px;
-    }
-    .video-description {
-      font-size: 8;
-      color: grey;
-    }
-
-    .a-text {
-      font-size: 14px;
-      background-color: rgb(227,65,54);
-      color: white;
-      text-align: center;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      width: 400px;
-      text-align: center;
-      margin-top: 25px;
-      margin-bottom: 25px;
-    }
-    .span-ex {
-      cursor: pointer;
-      margin-left: 12px;
-    }
-    .span-ex:hover {
-      text-decoration: underline;
-    }
-
-    .subscribe-button {
-      background-color: rgb(200, 0, 0);
-      color: white;
-      border: none;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 16px;
-      padding-right: 16px;
-      border-radius: 2px;
-      cursor: pointer;
-      margin-right: 8px;
-      transition: opacity 0.15s;
-      vertical-align: top;
+  <head>
+    <title>
+      Hello World
+    </title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .video-title {
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 5px;
+      }
+      .video-stats {
+        font-size: 16;
+        color: grey;
+        margin-bottom: 20px;
+      }
+      .video-author {
+        font-size: 10;
+        color: grey;
+        width: 200; 
+        line-height: 20px;
+      }
+      .video-description {
+        font-size: 8;
+        color: grey;
       }
 
-    .subscribe-button:hover {
-      opacity: .8;
-    }
-    .subscribe-button:active {
-      opacity: .4;
-    }
+      .a-text {
+        font-size: 14px;
+        background-color: rgb(227,65,54);
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 400px;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      .span-ex {
+        cursor: pointer;
+        margin-left: 12px;
+      }
+      .span-ex:hover {
+        text-decoration: underline;
+      }
 
-    .join-button {
-      background-color: white;
-      border-color: rgb(11, 11, 140);
-      border-style: solid;
-      border-width: 1px;
-      color: rgb(11, 11, 140);
-      padding-top: 9px;
-      padding-bottom: 9px;
-      padding-left: 16px;
-      padding-right: 16px;
-      border-radius: 2px;
-      cursor: pointer;
-      margin-right: 8px;
-      transition: background-color 0.15s, 
-        color 0.15s;
-    }
+      .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+        vertical-align: top;
+        }
 
-    .join-button:hover {
-      background-color:rgb(11, 11, 140);
-      color:white;
-    }
-    .join-button:active {
-      opacity: .4;
-    }
+      .subscribe-button:hover {
+        opacity: .8;
+      }
+      .subscribe-button:active {
+        opacity: .4;
+      }
+
+      .join-button {
+        background-color: white;
+        border-color: rgb(11, 11, 140);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(11, 11, 140);
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s, 
+          color 0.15s;
+      }
+
+      .join-button:hover {
+        background-color:rgb(11, 11, 140);
+        color:white;
+      }
+      .join-button:active {
+        opacity: .4;
+      }
+      
+
+      .tweet-button {
+        background-color: rgb(23, 135, 200);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: box-shadow 0.15s;
+        vertical-align: top;
+      }
+
+      .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>
+      Hello World
+    </h1>
+
+    <a href="https://www.youtube.com/">
+      youtube
+    </a>
+
+
+    <p class="video-title">
+      Lorem ipsum dolor sit amet
+    </p>
+
+    <p class="video-stats">
+      &#183 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet lacus non erat eleifend, sed commodo est elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus ac mollis odio. Cras tincidunt, justo eu luctus congue, magna neque rutrum risus, vitae mattis tortor sapien non leo. Donec et arcu lacinia, egestas nisi sed, tincidunt tortor. Morbi accumsan, sem ut accumsan efficitur, elit justo sodales nunc, in eleifend lectus lacus a sem. Duis sed metus sit amet dui fringilla vestibulum. Proin ullamcorper mi augue, at pulvinar nulla eleifend convallis. Sed eleifend augue ligula, non mollis tortor porttitor sit amet. Praesent in felis at tortor consequat dignissim quis at nunc.
+    </p>
+
+    <p class="video-author">
+      &#10003 Pellentesque aliquam enim in erat malesuada vehicula eget nec nulla. Integer lacus odio, auctor euismod condimentum ac, posuere at justo. Quisque feugiat posuere erat, id lobortis arcu. In suscipit dictum risus, eget mollis nisi faucibus et. Praesent iaculis tellus tempor ultrices congue. Vivamus mollis rhoncus mollis. Vestibulum ut nulla eu ex cursus volutpat. Morbi rutrum mi urna.
+    </p>
+
+    <p class="video-description">
+      &#10003 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent at lacus vestibulum, volutpat ante a, sodales mauris. Praesent malesuada ipsum a elit volutpat, id porttitor tellus ultrices. Cras porttitor purus in ex blandit, in consectetur orci auctor. Curabitur eget lacus in quam scelerisque laoreet. In condimentum laoreet nulla, vitae venenatis nisl finibus ac. Pellentesque congue neque nec ligula maximus euismod. Vivamus varius dui tempor rutrum pellentesque. Phasellus eu eleifend odio. Nullam iaculis luctus tincidunt.
+    </p>
+
+    <p class="a-text">
+      <u> Mauris</u> at <strong>tellus</strong> ac  ante semper <span class = "span-ex">pulvinar &#62</span>
+    </p>
     
 
-    .tweet-button {
-      background-color: rgb(23, 135, 200);
-      color: white;
-      border: none;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 16px;
-      padding-right: 16px;
-      border-radius: 18px;
-      font-weight: bold;
-      font-size: 15;
-      cursor: pointer;
-      margin-right: 8px;
-      transition: box-shadow 0.15s;
-      vertical-align: top;
-    }
+    <button class="subscribe-button">
+      subscribe
+    </button>
 
-    .tweet-button:hover {
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    }
-  </style>
+    <button class="join-button">
+      join blah blah blabh
+    </button>
 
-  <h1>
-    Hello World
-  </h1>
-
-  <a href="https://www.youtube.com/">
-    youtube
-  </a>
-
-
-  <p class="video-title">
-    Lorem ipsum dolor sit amet
-  </p>
-
-  <p class="video-stats">
-    &#183 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet lacus non erat eleifend, sed commodo est elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus ac mollis odio. Cras tincidunt, justo eu luctus congue, magna neque rutrum risus, vitae mattis tortor sapien non leo. Donec et arcu lacinia, egestas nisi sed, tincidunt tortor. Morbi accumsan, sem ut accumsan efficitur, elit justo sodales nunc, in eleifend lectus lacus a sem. Duis sed metus sit amet dui fringilla vestibulum. Proin ullamcorper mi augue, at pulvinar nulla eleifend convallis. Sed eleifend augue ligula, non mollis tortor porttitor sit amet. Praesent in felis at tortor consequat dignissim quis at nunc.
-  </p>
-
-  <p class="video-author">
-    &#10003 Pellentesque aliquam enim in erat malesuada vehicula eget nec nulla. Integer lacus odio, auctor euismod condimentum ac, posuere at justo. Quisque feugiat posuere erat, id lobortis arcu. In suscipit dictum risus, eget mollis nisi faucibus et. Praesent iaculis tellus tempor ultrices congue. Vivamus mollis rhoncus mollis. Vestibulum ut nulla eu ex cursus volutpat. Morbi rutrum mi urna.
-  </p>
-
-  <p class="video-description">
-    &#10003 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent at lacus vestibulum, volutpat ante a, sodales mauris. Praesent malesuada ipsum a elit volutpat, id porttitor tellus ultrices. Cras porttitor purus in ex blandit, in consectetur orci auctor. Curabitur eget lacus in quam scelerisque laoreet. In condimentum laoreet nulla, vitae venenatis nisl finibus ac. Pellentesque congue neque nec ligula maximus euismod. Vivamus varius dui tempor rutrum pellentesque. Phasellus eu eleifend odio. Nullam iaculis luctus tincidunt.
-  </p>
-
-  <p class="a-text">
-    <u> Mauris</u> at <strong>tellus</strong> ac  ante semper <span class = "span-ex">pulvinar &#62</span>
-  </p>
-  
-
-  <button class="subscribe-button">
-    subscribe
-  </button>
-
-  <button class="join-button">
-    join blah blah blabh
-  </button>
-
-  <button class="tweet-button">
-    tweet
-  </button>
-
-
+    <button class="tweet-button">
+      tweet
+    </button>
+  </body>
 </html>
