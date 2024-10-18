@@ -10,11 +10,13 @@ p {
   margin-bottom: 5px;
 }
 .video-stats {
+  font-family: Agdasima;
   font-size: 16;
   color: grey;
   margin-bottom: 20px;
 }
 .video-author {
+  font-family: Helvetica;
   font-size: 10;
   color: grey;
   width: 200; 
