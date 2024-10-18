@@ -1,0 +1,116 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.video-title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.video-stats {
+  font-family: "Noto Sans JP";
+  font-size: 16;
+  color: grey;
+  margin-bottom: 20px;
+}
+.video-author {
+  font-size: 10;
+  color: grey;
+  width: 200; 
+  line-height: 20px;
+}
+.video-description {
+  font-size: 8;
+  color: grey;
+}
+
+.a-text {
+  font-size: 14px;
+  background-color: rgb(227,65,54);
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.span-ex {
+  cursor: pointer;
+  margin-left: 12px;
+}
+.span-ex:hover {
+  text-decoration: underline;
+}
+
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+  }
+
+.subscribe-button:hover {
+  opacity: .8;
+}
+.subscribe-button:active {
+  opacity: .4;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(11, 11, 140);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(11, 11, 140);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s, 
+    color 0.15s;
+}
+
+.join-button:hover {
+  background-color:rgb(11, 11, 140);
+  color:white;
+}
+.join-button:active {
+  opacity: .4;
+}
+
+
+.tweet-button {
+  background-color: rgb(23, 135, 200);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
